@@ -37,48 +37,49 @@ public class App {
                         java.util.Arrays.toString(arregloBurbujaOrdenado3));
 
         // Metodo seleccionPrimero
-        // int[] arregloSeleccionOrdenado1 =
-        // ordenador.seleccionPrimero(arregloSeleccion);
-        // System.out.println(
-        // "Resultado selección Metodo 1: " +
-        // java.util.Arrays.toString(arregloSeleccionOrdenado1));
+        int[] arregloSeleccionOrdenado1 =
+        ordenador.seleccionPrimero(arregloSeleccion);
+        System.out.println(
+        "Resultado selección Metodo 1: " +
+        java.util.Arrays.toString(arregloSeleccionOrdenado1));
 
         // Metodo seleccionSegundo
-        // int[] arregloSeleccionOrdenado2 =
-        // ordenador.seleccionSegundo(arregloSeleccion);
-        // System.out.println(
-        // "Resultado selección Metodo 2: " +
-        // java.util.Arrays.toString(arregloSeleccionOrdenado2));
+        int[] arregloSeleccionOrdenado2 =
+        ordenador.seleccionSegundo(arregloSeleccion);
+        System.out.println(
+        "Resultado selección Metodo 2: " +
+        java.util.Arrays.toString(arregloSeleccionOrdenado2));
 
         // // Metodo seleccionTercero
-        // int[] arregloSeleccionOrdenado3 =
-        // ordenador.seleccionTercero(arregloSeleccion);
-        // System.out.println(
-        // "Resultado selección Metodo 3: " +
-        // java.util.Arrays.toString(arregloSeleccionOrdenado3));
+        int[] arregloSeleccionOrdenado3 =
+        ordenador.seleccionTercero(arregloSeleccion);
+        System.out.println(
+        "Resultado selección Metodo 3: " +
+        java.util.Arrays.toString(arregloSeleccionOrdenado3));
 
         // // Metodo insercionPrimero
-        // int[] arregloInsercionOrdenado1 =
-        // ordenador.insercionPrimero(arregloInsercion);
-        // System.out.println(
-        // "Resultado selección Metodo 1: " +
-        // java.util.Arrays.toString(arregloInsercionOrdenado1));
+        int[] arregloInsercionOrdenado1 =
+        ordenador.insercionPrimero(arregloInsercion);
+        System.out.println(
+        "Resultado selección Metodo 1: " +
+        java.util.Arrays.toString(arregloInsercionOrdenado1));
 
         // // Metodo insercionSegundo
-        // int[] arregloInsercionOrdenado2 =
-        // ordenador.insercionSegundo(arregloInsercion);
-        // System.out.println(
-        // "Resultado selección Metodo 1: " +
-        // java.util.Arrays.toString(arregloInsercionOrdenado2));
+        int[] arregloInsercionOrdenado2 =
+        ordenador.insercionSegundo(arregloInsercion);
+        System.out.println(
+        "Resultado selección Metodo 2: " +
+        java.util.Arrays.toString(arregloInsercionOrdenado2));
 
         // // Metodo insercionTercero
-        // int[] arregloInsercionOrdenado3 =
-        // ordenador.insercionTercero(arregloInsercion);
-        // System.out.println(
-        // "Resultado selección Metodo 1: " +
-        // java.util.Arrays.toString(arregloInsercionOrdenado3));
-        Benchmarking bM=new Benchmarking();
-        System.out.println(bM);
+        int[] arregloInsercionOrdenado3 =
+        ordenador.insercionTercero(arregloInsercion);
+        System.out.println(
+        "Resultado selección Metodo 3: " +
+        java.util.Arrays.toString(arregloInsercionOrdenado3));
+
+        //Benchmarking bM=new Benchmarking();
+        //System.out.println(bM);
     }
 
 }
